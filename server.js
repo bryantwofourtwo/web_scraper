@@ -24,6 +24,7 @@ db.on("error", function(error) {
 app.get("/", function(req, res) {
   res.send("Hello world");
 });
+
 // Route 1
 // =======
 // This route will retrieve all of the data
@@ -39,6 +40,7 @@ app.get("/all", function(req, res) {
     }
   });
 });
+
 // Route 2
 // =======
 // When you visit this route, the server will
